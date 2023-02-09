@@ -1,0 +1,55 @@
+
+fun main() {
+    
+    //Tipos de variáveis: // 
+    //
+    //string - armazena valores de texto -dentro de "" ==> ex: "abóbora"
+   //Int - armazena números inteiros ==> 7042
+   //Flaat - armazena números reais(no geral) -necessita de um f o valor ==>72.24f 
+  //Double - armazena números quebrado(de formas arredondadas) ==> 7.15 
+  //Long - armazena números longos ==> 56546831355.4313814268
+  //Boolean - verdadeiro ou falso ==> true, false
+  //
+  var cr7 = "Cristiano Ronaldo"
+  var numeroChampions = 5
+  var alturaDele = 1.87
+    
+  //Concatenação
+  
+  print("O nome dele é " + cr7 + ", ele tem " + numeroChampions)
+  println(" titúlos de Champions League e ele tem e ele tem " + alturaDele + " de altura SIIIUUU")
+  
+  var LaPulga = "Lionel Messi"
+  var Champions = 4  
+  var AlturaDele = 1.71 
+    
+  print("o nome dele $LaPulga, ele tem $Champions títulos de Champions e ele tem apenas $AlturaDele de altura")
+  
+  //Faça uma apresentação de si mesmo, usando no mínimo
+  //5 variaveis e usando o método de contatenação
+  
+  val nome = "Rodrigo"
+  val sobrenome = "Nestor"
+  val dia = 25
+  val ano = 2005 
+    
+  //Operadores matemáticos
+  //
+ // + => adição
+ // - => subtração
+ // / => divisão 
+ // * => multiplicação
+ // % => módulo
+ // 
+ 
+ //println()   
+ //
+ //Operadores Relacionais
+ //
+ //    
+ // == => igual a...
+ // != => diferente de... 
+ // 
+}
+
+
