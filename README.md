@@ -84,3 +84,58 @@ println("** O resultado da adição é:      **")
 println("**                               **")
 
 */
+...............................................................................................
+
+fun main() {
+    /*
+     //Condições
+     //
+     //condições simples
+     //
+     // if--> se...
+}    // else --> senão
+
+     var lembreiDoChocolate = "sim"
+
+     if(lembreiDoChocolate == "Sim"){
+         println("Vou entregar o chocolate para você")
+     }else{
+         println("Chocolate pra todo mundo !!")
+     }    
+     //se a condição for verdadeira, a sua ação será executada, senão, outra ação será
+     //executada
+     // Exercício ---> Faça uma comparação, usando uma variàvel e o if...else, se essa
+     // comparação for verdadeira, um resultado deverá ser impresso, senão, outro(resultado)
+     // será impresso
+     //
+     //Condições composto
+     
+     var corações = 1
+     if(corações == 5){
+         println("Você está ótimo!! Bom pra vc")
+     }else if(corações == 4){
+         println("vc esta bem")
+     }else if(corações == 3){
+         println("ce ta ok, pode comer algo")
+     }else if(corações == 2){  
+         println("vai se cuidar URGENTE")
+     }else if(corações == 1){
+         println("voce esta morrendo!!")
+     }else{
+         println("parabéns você é o novo reforço do vascão")
+     }
+     */
+     var idade = 18 
+    
+     if(idade <= 3){
+         println("Você é um nenê")
+     }else if(idade <= 12){
+         println("tu é criança")
+     }else if(idade <= 18){
+         println("vc é jovem, aproveite a vida")
+     }else if(idade <= 60){
+         println("tu é um adulto")
+     }else if(idade > 60){
+         println("tu é véi")
+     }else{
+         println("vasco.")
