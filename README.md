@@ -125,6 +125,61 @@ fun main() {
          println("parabéns você é o novo reforço do vascão")
      }
      */
+     
+     
+fun main() {
+    //Operadores Lógicos
+    //
+    //são usados quando queremos comparar mais de uma coisa na mesma condição
+    //
+    // && -> e
+    // || -> ou (shift = barra invertida)
+    // 
+    // TABELA VERDADE (com E e OU)
+    // 
+    // && - a determinada ação só acontecerá se e somente se todas as 
+    //  condição forem verdadeiras
+    // 
+    // VV -> verdadeiro
+    // VF -> falso
+    // FV -> falso
+    // FF -> falso
+    // 
+    // || - a determinada ação sera executada se pelo menos uma das condições forem verdadeiras
+    // 
+    // VV -> verdadeiro
+    // VF -> verdadeiro
+    // FV -> verdadeiro
+    // FF -> falso
+    // 
+    /*
+    
+    var idade = 14 
+    var acompanhadoDosPais = true
+    
+    
+    if(idade >= 14 && acompanhadoDosPais == true){
+        println("pode entrar, curte ai")
+    }else{
+        println("vaza mlk de bar")
+    }
+    */
+    //Exercício - A seleção brasileira esta correndo risco de ser eliminada na fase de grupos
+    //da copa do mundo, o brasil, so pode classificar se a alemanha perder, e se o proprio brasil
+    //ganhar. as partidas ja passaram quero saber se o brasil passou
+    //
+    
+    var AlemanhaPerde = false
+    var BrasilGanhou = false
+    
+    
+    if(AlemanhaPerde >= true || BrasilGanhou == true){
+        println("isso o Brasil se classificou")
+    }else{
+        println("poxa, o brasa perdeu")
+    }  
+}
+
      var idade = 18 
     
      if(idade <= 3){
